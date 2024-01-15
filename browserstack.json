@@ -1,0 +1,41 @@
+{
+    "auth": {
+        "username": "<Your BrowserStack username>",
+        "access_key": "<Your BrowserStack access key>"
+    },
+    "browsers": [
+        {
+            "browser": "webkit",
+            "os": "OS X Big Sur",
+            "versions": [
+                "latest-1"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.config.js",
+        "project_name": "cypress-sample",
+        "build_name": "cypress-cucumber-badeball-integration",
+        "exclude": [],
+        "parallels": "4",
+        "npm_dependencies": {
+            "@cypress/browserify-preprocessor": "^3.0.2",
+            "@badeball/cypress-cucumber-preprocessor": "^20.0.1"
+        },
+        "package_config_options": {
+            "cypress-cucumber-preprocessor": {
+                "stepDefinitions": "cypress/e2e/bdd-cucumber/step-defination/*.js",
+                "filterSpecs": true,
+                "omitFiltered": true
+              }
+        },
+        "headless": true
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
