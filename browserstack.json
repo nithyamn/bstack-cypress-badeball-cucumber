@@ -12,13 +12,6 @@
             ]
         },
         {
-            "browser": "chrome",
-            "os": "Windows 11",
-            "versions": [
-                "latest-1"
-            ]
-        },
-        {
             "browser": "firefox",
             "os": "Windows 10",
             "versions": [
