@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@cypress/browserify-preprocessor": "^3.0.2",
-    "browserstack-cypress-cli": "^1.29.0",
+    "browserstack-cypress-cli": "^1.30.0",
     "playwright-webkit": "^1.40.1"
   },
   "cypress-cucumber-preprocessor": {
